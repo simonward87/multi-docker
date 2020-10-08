@@ -1,15 +1,10 @@
 {
-  "name": "04_complex-app",
-  "version": "1.0.0",
-  "main": "index.js",
+  "dependencies": {
+    "nodemon": "1.18.3",
+    "redis": "2.8.0"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
-  "dependencies": {
-    "redis": "^3.0.2"
   }
 }
